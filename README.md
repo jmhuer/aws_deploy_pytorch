@@ -9,9 +9,8 @@ https://sagemaker.readthedocs.io/en/stable/frameworks/pytorch/using_pytorch.html
 understand docker:
 https://levelup.gitconnected.com/docker-containers-for-deep-learning-77e8b7e10ef1
 
-We are using pre-built default docker image for PyTorch model deployment 
+We are using  PyTorchModel object instead of PyTorch estimator-this is because no training job is being submitted.
 
-
-
+We are using default-pre-built pytorch inference docker image when we call PyTorchModel deployment see docs
 
 *original from https://github.com/aws/amazon-sagemaker-examples/tree/master/sagemaker_neo_compilation_jobs/pytorch_torchvision

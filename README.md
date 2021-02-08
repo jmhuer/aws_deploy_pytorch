@@ -2,7 +2,9 @@
 
 Other available models from pytorch https://pytorch.org/docs/stable/torchvision/models.html
 
-SageMaker api on PytorchModel: https://sagemaker.readthedocs.io/en/stable/frameworks/pytorch/sagemaker.pytorch.html#pytorch-model
+SageMaker api on PytorchModel: 
+https://sagemaker.readthedocs.io/en/stable/frameworks/pytorch/sagemaker.pytorch.html#pytorch-model
+https://sagemaker.readthedocs.io/en/stable/frameworks/pytorch/using_pytorch.html#create-a-pytorchmodel-object
 
 We are using pre-built default docker image for PyTorch model deployment 
 
